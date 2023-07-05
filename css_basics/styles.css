@@ -5,10 +5,14 @@ body{flex-direction: column;
 }
 
 main{flex-direction: row;
-flex: auto;}
+flex: auto;
+color: blue;}
 
-article{flex: 2;}
+article{flex: 2;
+color: #4b0808;}
 
-aside{flex: 1;}
+aside{flex: 1;
+background-color: blueviolet;}
 
-article, aside{overflow-y: auto;}
+article, aside{overflow-y: auto;
+background-color: blueviolet;}
